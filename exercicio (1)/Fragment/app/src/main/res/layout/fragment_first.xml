@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:background="#FF5722">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Conrado"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="70dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mato1"
+        />
+
+    <ImageView
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:src="@drawable/olho" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/olho" />
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/boca" />
+
+
+</FrameLayout>
